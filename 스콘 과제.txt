@@ -1,0 +1,64 @@
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ[4]ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+#include<stdio.h>
+int main(void)
+{
+	int num[10] = {29, 24, 56, 42, 35, 41, 64, 79, 51, 14};
+	int sum = 0; int i;
+	for(i=0; i<9; i=i+2)
+	sum = sum + num[i];	
+	printf("%d", sum);
+	return 0;
+}
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ[5]ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+#include<stdio.h>
+int main(void)
+{
+	int i;
+	char str[4];
+	
+	str[0] = 'K';
+	str[1] = 'O';
+	str[2] = 'R';
+	str[3] = 'E';
+	str[4] = 'A';
+	
+	for (i=0; i<5; i++)
+	{
+		printf("%c", str[i]);
+	}
+	return 0;
+}
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ[6]ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+#include<stdio.h>
+int main(void)
+{
+	char text[9] = {'P','A','T','H','L','E','V','E','L'};
+	
+	for(int i=8; i>=0; i--){
+		printf("%c", text[i]);
+	} 
+}
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ[7]ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+#include<stdio.h>
+int main(void)
+{
+	int a[5]={3,2,5,1,4};
+	int temp, i, j;
+	for(i=0; i<4; i++)
+	{
+		temp=a[i];
+		a[i]=a[i+1];
+		a[i+1]=temp;
+	}
+	for(j=0;j<5;j++){
+		printf("%d", a[j]);
+	}
+	return 0;
+}
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
